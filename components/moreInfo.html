@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="../styles/style.css" rel="stylesheet" />
+    <title>Request more info</title>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="nav-item"><a href="../index.html">Home</a></div>
+      <div class="nav-item"><a href="./towns.html">Towns</a></div>
+      <div class="nav-item"><a href="./photos.html">Picures</a></div>
+      <div class="nav-item">
+        <a href="./moreInfo.html">Request more info</a>
+      </div>
+    </nav>
+    <main class="form-container">
+      <form>
+        <fieldset>
+          <legend>Request more Info</legend>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <p>Do you currently live in Dallas County</p>
+            <div class="input-group">
+              <input type="checkbox" name="yes" id="yes" value="yes" />
+              <label for="yes">Yes</label>
+            </div>
+            <div class="input-group">
+              <input type="checkbox" name="no" id="no" value="no" />
+              <label for="no">No</label>
+            </div>
+          </div>
+          <div>
+            <label for="reason">Additional Inofrmation requested</label>
+            <textarea id="reason" name="reason" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
